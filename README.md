@@ -1,5 +1,16 @@
-# projeto-mqtt--Lucas-
+Repositorio Sprint 8
 
-*Objetivo*
+_Objetivo_
 
-Com uma placa Arduino Uno,um sensor magnetico e um módulo Ehernet ENC28J60, criar um programa que seja capaz de informar remotamente se um rack está aberto ou fechado utilizando o protocolo MQTT.
+Utilizar um Arduino Uno e um sensor magnetico para monitoramento de um rack de rede. O programa deve informar se o rack esta ABERTO ou fECHADO e enviar essa informação via internet utilizando o protocolo MQTT, essa informação será enviada para um servidor MQTT hospedado na AWS, e irá fornecer essa informação para um cliente MQTT, que estará utiliznado o aplicativo MQTT Dash em seu smartphone.
+
+
+
+_Materiasi Utilizados:_
+
+Placa Arduino Uno
+Módulo Ethernet (ENC28J60)
+Sensor Magnetico (MC-38)
+Jumpers
+
+_Circuito_
