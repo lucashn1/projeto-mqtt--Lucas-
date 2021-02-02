@@ -44,15 +44,13 @@ void setup() {
     Serial.print("O Gateway do Arduino e: ");
     Serial.println(Ethernet.gatewayIP());
 
-    
-    Serial.println("");
-
+  
 }
 
 void loop() {
 
     estado_sensor = digitalRead(pino2);
- 
+ //Nome do client que será acessado remotamente
  mqttClient.connect ("rack");
 
 if (estado_sensor == 0){
