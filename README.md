@@ -1,4 +1,4 @@
-# Repositorio Sprint 8 :runner:
+# Repositório Sprint 8 :runner:
 
 ## :dart: **Objetivo**
 
