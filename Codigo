@@ -1,4 +1,4 @@
-//Monitoramento remoto com Arduino
+//Monitoramento remoto com Arduino e protocolo MQTT
 
 #include <UIPEthernet.h>
 
