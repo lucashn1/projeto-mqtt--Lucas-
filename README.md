@@ -7,6 +7,7 @@ Utilizar um Arduino Uno e um sensor magnetico para monitoramento de um rack de r
 Bibliotecas utilizadas:
 * UIPEthernet
 * PubSubClient
+* SPI
 
 **Projeto:**
 ![Projeto](https://user-images.githubusercontent.com/78046298/106601097-05845800-653a-11eb-86c5-d1b6fb4cc116.png)
