@@ -14,4 +14,3 @@ Sensor Magnetico (MC-38)
 Jumpers
 
 _Circuito_
-<img>https://github.com/lucashn1/projeto-mqtt--Lucas-.wiki.git<img>
