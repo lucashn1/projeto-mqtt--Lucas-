@@ -24,3 +24,9 @@ Utilizar um Arduino Uno e um sensor magnetico para monitoramento de um rack de r
 
  
 ![Circuito](https://user-images.githubusercontent.com/78046298/106600827-b0484680-6539-11eb-8e03-3ae240c8656e.png)
+
+
+
+
+*Autor:*
+*Lucas Henrique das Neves* :key:
