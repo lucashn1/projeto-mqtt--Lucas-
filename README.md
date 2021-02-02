@@ -17,6 +17,7 @@ Bibliotecas utilizadas:
 * Módulo Ethernet (ENC28J60)
 * Sensor Magnetico (MC-38)
 * Jumpers
+* Smartphone
 
 **Circuito:**
 
