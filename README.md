@@ -2,7 +2,7 @@
 
 ## :dart: **Objetivo:**
 
-Utilizar um Arduino Uno e um sensor magnetico para monitoramento de um rack de rede. O programa deve informar se o rack esta ABERTO ou FECHADO e enviar essa informação via internet utilizando o protocolo MQTT, essa informação será enviada para um servidor MQTT hospedado na AWS, e irá fornecer essa informação para um cliente MQTT, que estará utiliznado o aplicativo MQTT Dash em seu smartphone.
+Utilizar um Arduino Uno e um sensor magnetico para monitoramento de um rack de rede. O programa deve informar se o rack esta ABERTO ou FECHADO e enviar essa informação via internet utilizando o protocolo MQTT, essa informação será enviada para um servidor MQTT hospedado na AWS, e irá fornecer essa informação para um cliente MQTT, que estará acessando o aplicativo MQTT Dash por meio de seu smartphone.
 
 ## :satellite: Bibliotecas utilizadas:
 * UIPEthernet
