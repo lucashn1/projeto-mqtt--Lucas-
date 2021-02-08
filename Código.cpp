@@ -6,9 +6,9 @@
 
 #include <SPI.h>
 
-//MacAdress 94-4B-88-BD-92-3F
+//MacAdress 29-77-D8-1E-A9-A5
 //Define o endereço MAC que será utilizado
-byte mac[] = {0x94, 0x4B, 0x88, 0xBD, 0x92,0x3F};
+byte mac[] = {0x29, 0x77, 0xD8, 0x1E, 0xA9,0xA5};
 bool mensagem;
 int pino2 =2;
 bool estado_sensor;
@@ -27,7 +27,7 @@ void setup() {
     //Inicia o controlador Ethernet e solicita um IP para o servidor de DHCP
     Ethernet.begin(mac);
     
-    Serial.begin(9600);
+
 
     //Definição de IP e porta TCP do Broker MQTT
     mqttClient.setServer("3.87.59.89",1883);
@@ -57,20 +57,20 @@ if (estado_sensor == 0){
 mensagem = mqttClient.publish("rack", "Rack Fechado.");
 Serial.print("O estado do sensor e: ");
 Serial.println(estado_sensor);
-delay(500);
+
 
 
 }else {
     mensagem = mqttClient.publish("rack", "Rack Aberto");
     Serial.print("O estado do sensor e: ");
     Serial.println(estado_sensor);
-    delay(500);
+    
   
 }
   mqttClient.loop();
 
  
-  delay(500);
+  
     
     
 }
