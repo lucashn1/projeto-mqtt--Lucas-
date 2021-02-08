@@ -1,4 +1,4 @@
-#Entregável Sprint 8 :runner:
+# Entregável Sprint 8 :runner:
 
 ## :dart: **Objetivo:**
 
