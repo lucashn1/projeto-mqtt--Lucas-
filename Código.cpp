@@ -58,7 +58,7 @@ Serial.println(estado_sensor);
 
 
 }else {
-    mensagem = mqttClient.publish("rack", "Rack Aberto");
+    mensagem = mqttClient.publish("rack", "Rack Aberto.");
     Serial.print("O estado do sensor e: ");
     Serial.println(estado_sensor);
     
