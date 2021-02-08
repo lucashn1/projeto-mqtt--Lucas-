@@ -16,7 +16,7 @@ Utilizar um Arduino Uno e um sensor magnetico para monitoramento de um rack de r
 
 * Placa Arduino Uno
 * Módulo Ethernet (ENC28J60)
-* Sensor Magnetico (MC-38)
+* Sensor Magnético (MC-38)
 * Jumpers
 * Smartphone
 
