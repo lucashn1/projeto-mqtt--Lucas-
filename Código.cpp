@@ -54,13 +54,13 @@ void loop() {
 if (estado_sensor == 0){
 mensagem = mqttClient.publish("rack", "Rack Fechado.");
 Serial.print("O estado do sensor e: ");
-Serial.println(estado_sensor);
+Serial.println("fechado.");
 
 
 }else {
     mensagem = mqttClient.publish("rack", "Rack Aberto.");
     Serial.print("O estado do sensor e: ");
-    Serial.println(estado_sensor);
+    Serial.println("aberto.");
     
   
 }
